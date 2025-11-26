@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Rood
 
   #### Je focus:
-  Responsive
+  surface
  
 </details>
 
@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   productpagina  
-  <img src="readme-images/peetsproductpage.jpeg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/smallbatch.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
