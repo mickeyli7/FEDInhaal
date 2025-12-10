@@ -122,6 +122,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  lastig: carousel <img src="readme-images/carousel1.jpg">
 
 
   ### Agenda voor meeting
