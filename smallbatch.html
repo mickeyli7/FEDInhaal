@@ -6,15 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peet's Coffee</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
 </head>
 
 <body>
+    <!-- <header id="nav"></header>
+
+    <script>
+      fetch('partials/nav.html')
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById('nav').innerHTML = html;
+        });
+    </script> -->
     <header>
-        <h1>small batch series</h1>
+        <nav>
+            <a href="index.html">
+                <img src="images/peetslogo.png" alt="site logo">
+            </a>
+            <ul>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                    </svg>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                </li>
+            </ul>
+        </nav>
     </header>
+
     <main>
+
+        <!-- small batch series -->
         <section>
-            <!-- h2 -->
+            <h1>
+                Small batch series
+            </h1>
+            <p>starting at $24,95 / LB</p>
+            <ul>
+                <li>
+                    <img src="images/smallbatch.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/smallbatchseries.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/smallbatchimg3.jpg" alt="">
+                </li>
+            </ul>
             <p>When our coffee team encounters extraordinary coffees, they set aside just enough to share with others
                 who
                 might
@@ -24,28 +78,40 @@
                 in the world’s best coffee-growing regions.</p>
         </section>
 
+        <!-- choose your grind -->
         <section>
             <h2>choose your grind</h2>
-            <!-- use field sets here? -->
-            <article>
-                <p>Whole bean</p>
-            </article>
-            <article>
-                <p>Drip</p>
-            </article>
-            <article>
-                <p>French press</p>
-            </article>
-            <article>
-                <p>Espresso</p>
-            </article>
+            <ul>
+                <li>
+                    <button>
+                        <p>Whole bean</p>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <p>Drip</p>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <p>French press</p>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <p>Espresso</p>
+                    </button>
+                </li>
+            </ul>
             <!--  -->
             <h2>quantity</h2>
             <a href="#">subscribe & ship free</a>
-            <p>Get a free mug when you subscribe (claim offer at checkout) OR get 30% off your first subscription offer (use promo code NEWSUB30)</p>
+            <p>Get a free mug when you subscribe (claim offer at checkout) OR get 30% off your first subscription offer
+                (use promo code NEWSUB30)</p>
         </section>
 
-        <section class="customerslove">
+        <!-- why customers love small batch -->
+        <section>
             <h2>why customers love the small batch series</h2>
             <article>
                 <h3>carefully selected</h3>
@@ -62,36 +128,52 @@
             </article>
         </section>
 
+        <!-- this month's roast -->
         <section>
-            <h3>this month's roast</h3>
-            <h2>Mexico chiapas altura organic</h2>
-            <p>Organically and sustainably grown at high altitudes in mexico's southern chiapas state, this dark roast carries notes of milk chocolate, ougat and lemon shortbread.</p>
-            <p>Last order date: November 27</p>
-            <a href="#">View details</a>
+
+            <img src="images/papuanewguineacropped.png">
+            <p>this month's roast</p>
+            <h2>Papua New Guinea Wahgi Valley</h2>
+
+            <p>Savory-sweet notes of cured tobacco, burnt sugar, and baked plum. Smallholder grown on a PNG high, misty
+                plateau. A real treat in every sip.</p>
+            <p>Last order date: January 29</p>
+            <a href="#">View details →</a>
         </section>
 
+        <!-- how it works -->
         <section>
             <h2>How it works</h2>
-            <img>
-            <article>
-                <h3>choose</h3>
-                <p>Let us help you discover something new with our Small Batch Series Curated Subscription.</p>
-            </article>
-            <article>
-                <h3>customize</h3>
-                <p>Let us know how much, how often, and which grind is right for you.</p>
-            </article>
-            <article>
-                <h3>enjoy</h3>
-                <p>Experience the freshest coffee, hand roasted and delivered directly to you. Reschedule or cancel your
-                    box
-                    at anytime.</p>
-            </article>
+            <ul>
+                <li>
+                    <img src="images/choose.jpg" alt="">
+                    <p>1</p>
+                    <h3>choose</h3>
+                    <p>Let us help you discover something new with our Small Batch Series Curated Subscription.</p>
+                </li>
+                <li>
+                    <img src="images/customize.jpg" alt="">
+                    <p>2</p>
+                    <h3>customize</h3>
+                    <p>Let us know how much, how often, and which grind is right for you.</p>
+                </li>
+                <li>
+                    <img src="images/enjoy.jpg" alt="">
+                    <p>3</p>
+                    <h3>enjoy</h3>
+                    <p>Experience the freshest coffee, hand roasted and delivered directly to you. Reschedule or cancel
+                        your
+                        box
+                        at anytime.</p>
+                </li>
+            </ul>
         </section>
 
-        <section>
+        <!-- previously featured -->
+        <!-- <section>
             <h4>Previously Featured on Small Batch</h4>
-            <p>Every month experience a fferent limited release, rare microlot from smallholder farms in the world's best coffee-growing regions</p>
+            <p>Every month experience a fferent limited release, rare microlot from smallholder farms in the world's
+                best coffee-growing regions</p>
             <ul>
                 <li>
                     <h3>Major dickason's blend</h3>
@@ -139,13 +221,13 @@
                     <p>starting at $18.95/MO</p>
                 </li>
             </ul>
-        </section>
+        </section> -->
 
         <section class="reviews">
             <h2>Reviews</h2>
             <p>Rating Snapshot</p>
             <p>Select a row below to filter reviews.</p>
-            
+
             <div class="rating-row">
                 <span>5 stars</span>
                 <div class="rating-bar">
@@ -153,7 +235,7 @@
                 </div>
                 <span>653</span>
             </div>
-        
+
             <div class="rating-row">
                 <span>4 stars</span>
                 <div class="rating-bar">
@@ -161,7 +243,7 @@
                 </div>
                 <span>144</span>
             </div>
-        
+
             <div class="rating-row">
                 <span>3 stars</span>
                 <div class="rating-bar">
@@ -169,7 +251,7 @@
                 </div>
                 <span>76</span>
             </div>
-        
+
             <div class="rating-row">
                 <span>2 stars</span>
                 <div class="rating-bar">
@@ -177,7 +259,7 @@
                 </div>
                 <span>31</span>
             </div>
-        
+
             <div class="rating-row">
                 <span>1 star</span>
                 <div class="rating-bar">
@@ -186,7 +268,7 @@
                 <span>36</span>
             </div>
         </section>
-        
+
         <section class="overall-rating">
             <h2>Overall Rating</h2>
             <div class="rating-summary">
@@ -199,7 +281,7 @@
                 </div>
             </div>
             <p>235 out of 282 (83%) reviewers recommend this product</p>
-            
+
             <div>
                 <h3>Review this Product</h3>
                 <div class="stars-input">
@@ -212,7 +294,7 @@
                 <p>Adding a review will require a valid email for verification</p>
             </div>
         </section>
-        
+
 
         <section>
             <h2>
