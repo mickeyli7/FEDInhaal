@@ -55,8 +55,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
+
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+    De website ziet er goed uit, maar ik heb nog wat mogelijkheden voor verbetering gevonden, met name: 
+  - er is geen dark mode
+  - Er zijn images zonder alt text
+  - Er kwamen nog best wat errors uit de validator
 
 </details>
 
@@ -104,10 +109,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+ feedback (van student assistent):
+ - Alle sections met een heading (h2)— h2 en h3 niet direct achter elkaar (niet netjes
+- Betere hiërarchie (h2 -> h3 ->h4 etc, let op)
+- Footer links niet in articles maar in ul
+- Ruim code op!
+- Article hoeft niet in een section als dat het enige is wat er in de section staat
 
 </details>
 
@@ -128,20 +135,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Kioko      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
-
+Wat ik heb gevraagd:
+- Hoe zit het met het gebruik van classes/meerdere css bestanden?
+- Carousel lukt niet (goed)
+- Website is veel veranderd, moet het precies hetzelfde zijn of is het oké als het een beetje gemengd is?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
+Feedback: 
+- Verder met css (doe eerst dingen die hetzelfde zijn op pagina’s, geeft meer voldoening:))
+- Is oké als de fotos anders zijn
+- Carousel > kwam omdat er styling op de section zat, mag het eerste deel van deze section in een div zetten puur voor styling
+- Meerdere css mag, maar gebruik een basis bestand voor dingen die op beide pagina’s hetzelfde zijn (footer, nav, etc. (See FB point 1))
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
 
 </details>
 
