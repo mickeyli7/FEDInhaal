@@ -224,13 +224,26 @@ Feedback:
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/chooseyourgrind.jpg" width="375px" alt="top">
+  de radiobuttons en choose your grind section waren voor mij vrij nieuw terrein, maar ik vind dat ze toch enorm goed zijn gelukt 
+
+
+  ook had ik in het begin wat moeite met de carousels, maar toen ik deze uiteindelijk had uitgevogeld zijn deze vrij vloeiend op stand gekomen
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/filterreviews.jpg" width="375px" alt="bummer">
+  de reviews op deze pagina waren een beetje een challenge voor mij, ondanks dat ik dit al eerder op websites heb gemaakt. ik heb hier helaas door tijdsnood en moeite ook wat onderdelen weg moeten laten (show/hide filters en sorteren)
+
+  <img src="readme-images/misluktecarousel.jpg" width="375px" alt="bummer">
+  ondanks mijn succes met andere carousels op deze paginas, is deze niet helemaal gelukt. ik kwam er vrij laat pas achter dat ik deze nog toe moest voegen, en moest toen veel code veranderen (in css veel nth-of-type() selectoren gebruikt)
+
+  ook had ik de navigatie graag in een partial gezet, net zoals de footer, maar toen ik dit probeerde kwam ik veel problemen tegen, en heb er uiteindelijk voor gekozen om hem werkend in de html te zetten in plaats van niet werkend in een partial
+
+  
+  
 </details>
 
 
