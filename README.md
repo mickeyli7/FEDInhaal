@@ -172,6 +172,10 @@ Feedback:
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - alle plaatjes hebben nu een alt text
+  - er is een dark mode beschikbaar
+  - de html geeft geen/minder errors aan
+  - er is 1 onderdeel waar de contrast niet goed is, maar de tekst is daar dikker, dus ik he het zo gelaten
 
 </details>
 
@@ -259,8 +263,8 @@ Feedback:
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
+  1. [bron 1](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Overflow/Carousels )
+  2. [bron 2](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/::scroll-marker-group)
   3. ...
 
 </details>
