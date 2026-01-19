@@ -222,7 +222,8 @@ Feedback:
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/indexhtml.jpeg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/smallbatchfull.jpeg" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
