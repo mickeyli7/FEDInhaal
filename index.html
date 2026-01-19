@@ -6,111 +6,206 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Peet's Coffee</title>
 	<link rel="stylesheet" href="stylehome.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="styles/layout.css">
 </head>
-<main>
 
-	<body>
-		<header>
-			<nav>
-				<a href="index.html">
-					<img src="images/peetslogo.png" alt="site logo">
-				</a>
-				<ul>
-					<li>
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-							stroke="currentColor" class="size-6">
-							<path stroke-linecap="round" stroke-linejoin="round"
-								d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-						</svg>
-					</li>
-					<li>
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-							stroke="currentColor" class="size-6">
-							<path stroke-linecap="round" stroke-linejoin="round"
-								d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-						</svg>
-					</li>
-					<li>
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-							stroke="currentColor" class="size-6">
-							<path stroke-linecap="round" stroke-linejoin="round"
-								d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-						</svg>
-					</li>
-				</ul>
-			</nav>
-			<!-- <h1>Peet's</h1> -->
-			<!-- <img src="images/peetsheader.jpg"> -->
-		</header>
+<body>
+	<main>
 
-		<section>
-			<img src="images/" alt="">
-			<article>
-				<h2>coffee, comfort & joy</h2>
-				<p>Gifts to wrap, recipes to impress, and return fave Holiday Blend to sip.
-				</p>
-				<a href="#">learn more</a>
-			</article>
-		</section>
+
 
 		<section>
 			<ul>
+				<li>Free Shipping on Orders Over $50!</li>
+				<li>Holiday Blend Available Now! Check out our seasonal gifts and recipes.</li>
+				<li>Gift Cards for Everyone on Your List</li>
+			</ul>
+			<button aria-label="Previous slide">&#10094;</button>
+			<button aria-label="Next slide">&#10095;</button>
+		</section>
+
+		<header>
+            <a href="index.html">
+                <img src="images/peetslogo.png" alt="peets site logo">
+            </a>
+            <ul>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                    </svg>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                </li>
+                <li>
+                    <button aria-label="Open menu">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+
+            <nav>
+                <button aria-label="Close menu">×</button>
+                <ul>
+                    <li>
+                        <h2>free shipping</h2>
+                    </li>
+                    <li>
+                        <h2>coffee</h2>
+                        <ul>
+                            <li><h3>featured</h3></li>
+                            <li><a href="#">Subscribe & save</a></li>
+                            <li><a href="#">gift subscriptions</a></li>
+                            <li><a href="#">best sellers</a></li>
+                            <li><a href="#">exclusives</a></li>
+                            <li><a href="#">decaf & half-caff coffee</a></li>
+                            <li><a href="#">L'OR coffee</a></li>
+                            <li><a href="#">shop all coffee</a></li>
+                        </ul>
+                        <ul>
+                            <li><h3>roast</h3></li>
+                            <li><a href="#">dark roast</a></li>
+                            <li><a href="#">medium roast</a></li>
+                            <li><a href="#">bright roast</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>shop</h2>
+                        <ul>
+                            <li><h3>shop</h3></li>
+                            <li><a href="#">subscribe & save</a></li>
+                            <li><a href="#">coffee</a></li>
+                            <li><a href="#">tea</a></li>
+                            <li><a href="#">E-Gift cards</a></li>
+                            <li><a href="#">Mugs + Gear</a></li>
+                        </ul>
+                        <ul>
+                            <li><h3>offers</h3></li>
+                            <li><a href="#">30% off new subscriptions</a></li>
+                            <li><a href="#">free shipping on orders $49+</a></li>
+                            <li><a href="#">10% off + free shipping for email subscribers</a></li>
+                            <li><a href="#">15% off for SMS subscribers</a></li>
+                            <li><a href="#">shop all offers</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>about us</h2>
+                        <ul>
+                            <li><a href="#">coffee for coffee people</a></li>
+                            <li><a href="#">sourcing with impact</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>our stores</h2>
+                        <ul>
+                            <li><a href="#">coffee for coffee people</a></li>
+                            <li><a href="#">sourcing with impact</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>business</h2>
+                        <ul>
+                            <li><a href="#">coffee for coffee people</a></li>
+                            <li><a href="#">sourcing with impact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+
+		<!-- coffee comfort & joy -->
+		<section>
+			<h2>coffee, comfort & joy</h2>
+			<p>Gifts to wrap, recipes to impress, and return fave Holiday Blend to sip.
+			</p>
+			<a href="#">learn more</a>
+		</section>
+
+		<!-- shop by category -->
+		<section>
+			<h2>shop by category</h2>
+			<ul>
 				<li>
+					<img src="images/bundles.png" alt="bundle icon">
 					<p>shop bundles</p>
 				</li>
 				<li>
+					<img src="images/capsules.png" alt="coffee capsule icon">
 					<p>shop capsules</p>
 				</li>
 				<li>
+					<img src="images/darkroast.png" alt="dark roast coffee beans icon">
 					<p>dark roast</p>
 				</li>
 				<li>
+					<img src="images/mediumroast.png" alt="medium roast coffee beans icon">
 					<p>medium roast</p>
 				</li>
 				<li>
+					<img src="images/lightroast.png" alt="light roast coffee beans icon">
 					<p>light roast</p>
 				</li>
 				<li>
+					<img src="images/decaf.png" alt="decaf coffee icon">
 					<p>shop decaf</p>
 				</li>
 			</ul>
 		</section>
 
 		<section>
-			<!-- <h2>something</h2> -->
+			<h2>introduction</h2>
 			<article>
-				<img src="images/givingthanks.jpg" alt="">
+				<img src="images/givingthanks.jpg" alt="two girls having a cup of coffee">
 				<h3>Giving Thanks with 15% Off Sitewide</h3>
 				<p>It's our way of saying we appreciate you, Peetniks. Code: THANKS. Exclusions apply</p>
 				<a href="#">Shop Now</a>
 			</article>
 			<article>
-				<img src="images/unwrap.jpg" alt="">
+				<img src="images/unwrap.jpg" alt="12 days of peets giftbox image">
 				<h3>Unwrap Coffee, Comfort & Joy</h3>
 				<p>Twelve doors, twelve delicios hand-selected coffees to savor each day. The 2025 Peet's Advent
 					Calendar is here.</p>
 				<a href="#">Shop Now</a>
 			</article>
 			<article>
-				<img src="images/roastingnovember.jpg" alt="">
+				<img src="images/roastingnovember.jpg" alt="mexico chapas altura organic with mountain background">
 				<h3>Roasting in November</h3>
 				<p>A dark roast from a sustainable, organic co-op in the highlands of southern Mexico</p>
 				<a href="#">Shop Now</a>
 			</article>
 		</section>
 
+		<!-- when it comes to coffee, find your brew & from out blog -->
 		<section>
 			<h2>When it comes to coffee, we know what were brewing.</h2>
 			<article>
-				<img src="images/magicintruige.jpg" alt="">
+				<img src="images/magicintruige.jpg"
+					alt="someone pouring a cup of coffee next to a bag of peets holiday blend">
 				<h3>Magic & Intruige</h3>
 				<p>Holiday Blend 2025 scintillates with its interplay of cocoa, jammy fruit, and a spark of spice.
 					Brew--and gift--the star of the season. available inregular, decaf and single serve pods.</p>
 				<a href="#">Shop Now</a>
 			</article>
 			<article>
-				<img src="images/findyourbrew.jpg" alt="">
+				<img src="images/findyourbrew.jpg"
+					alt="a man in a cafe drinking a cup of coffee and looking out of the window">
 				<h3>Find Your New Brew</h3>
 				<p>The good thing about being a grown-up: taking quizzes is actually fun. No wrong answers, just great
 					brews</p>
@@ -125,6 +220,7 @@
 			</article>
 		</section>
 
+		<!-- crowd pleasers -->
 		<section>
 			<div>
 				<h2>CROWD PLEASERS</h2>
@@ -133,113 +229,126 @@
 			</div>
 			<ul>
 				<li>
+					<p>dark roast</p>
 					<h3>Major dickason's blend</h3>
-					<img src="images/majordickason'sblend.jpg" alt="">
+					<img src="images/majordickason'sblend.jpg" alt="bag of major dickasons coffee beans">
 					<p>starting at $18.95/MO</p>
 					<p>★ 3.5/5</p>
 				</li>
 				<li>
+					<p>new</p>
 					<h3>French roast</h3>
-					<img src="images/frenchroast.jpg" alt="">
+					<img src="images/frenchroast.jpg" alt="bag of french roast coffee beans">
 					<p>starting at $18.95/MO</p>
 					<p>★ 3.5/5</p>
 				</li>
 				<li>
+					<p>medium roast</p>
 					<h3>Small batch series</h3>
-					<img src="images/smaalbatchseries.jpg" alt="">
+					<img src="images/smaalbatchseries.jpg" alt="bag of small batch series coffee beans">
 					<p>starting at $18.95/MO</p>
 					<p>★ 3.5/5</p>
 				</li>
 				<li>
+					<p>out of stock</p>
 					<h3>Espresso forte</h3>
-					<img src="images/espressoforte.jpg" alt="">
+					<img src="images/espressoforte.jpg" alt="bag of espresso forte coffee beans">
 					<p>starting at $18.95/MO</p>
 					<p>★ 4.6/5</p>
 				</li>
 				<li>
+					<p>medium roast</p>
 					<h3>Italian roast</h3>
-					<img src="images/italianroast.jpg" alt="">
+					<img src="images/italianroast.jpg" alt="bag of italian roast coffee beans">
 					<p>starting at $18.95/MO</p>
 					<p>★ 3.7/5</p>
 				</li>
 				<li>
+					<p>light roast</p>
 					<h3>Decaf major dicasons blend</h3>
-					<img src="images/decafdickansons.jpg" alt="">
+					<img src="images/decafdickansons.jpg" alt="bag of light roast coffee beans">
 					<p>starting at $18.95/MO</p>
 					<p>★ 4.7/5</p>
 				</li>
 				<li>
+					<p>dark roast</p>
 					<h3>Decaf mocha-java</h3>
-					<img src="images/decafmoccajava.jpg" alt="">
+					<img src="images/decafmoccajava.jpg" alt="bag of decaf mocha-java coffee beans">
 					<p>starting at $18.95/MO</p>
 					<p>★ 4.7/5</p>
 				</li>
 				<li>
+					<p>dark roast</p>
 					<h3>Holiday blend</h3>
-					<img src="images/holidayblend.jpg" alt="">
+					<img src="images/holidayblend.jpg" alt="bag of holiday blend coffee beans">
 					<p>starting at $18.95/MO</p>
 					<p>★ 3.5/5</p>
 				</li>
 			</ul>
 		</section>
 
-		<!-- <section> -->
+
+		<!-- from the coffeebar -->
 		<article>
 			<p>FROM THE COFFEEBAR</p>
 			<h3>HOLIDAY HITS & PISTACHIO SIPS</h3>
 			<p>Our holiday meny just dropped, and its yours for the unwrapping.</p>
 			<a href="#">VIEW ALL</a>
 		</article>
-		<!-- </section> -->
+
 
 		<section>
+			<h2>Our drinks</h2>
 			<ul>
 				<li>
-					<img src="images/strawberryproteinsmoothie.jpg" alt="">
+					<img src="images/strawberryproteinsmoothie.jpg" alt="image of a strawberry smoothie in a glass">
 					<p>Strawberry pistachio smoothie</p>
 				</li>
 				<li>
-					<img src="images/coldbrewproteinsmoothie.jpg" alt="">
+					<img src="images/coldbrewproteinsmoothie.jpg" alt="image of a coldbrew protein smoothie in a glass">
 					<p>Coldbrew protein smoothie</p>
 				</li>
 				<li>
-					<img src="images/matchapeachproteinsmoothie.jpg" alt="">
+					<img src="images/matchapeachproteinsmoothie.jpg"
+						alt="image of a matcha protein smoothie in a glass">
 					<p>matcha protein smoothie</p>
 				</li>
 				<li>
-					<img src="images/pistachioroselatte.webp" alt="">
+					<img src="images/pistachioroselatte.webp" alt="image of a pistachio rose latte in a glass">
 					<p>pistachio rose latte with tache pistachio milk</p>
 				</li>
 				<li>
-					<img src="images/icedpistachioroselatte.jpg" alt="">
+					<img src="images/icedpistachioroselatte.jpg" alt="image of a iced pistachio rose latte in a glass">
 					<p>iced pistachio rose latte with tache pistachio milk</p>
 				</li>
 				<li>
-					<img src="images/pistachiomatchalatte.jpg" alt="">
+					<img src="images/pistachiomatchalatte.jpg" alt="image of a pistachio matcha latte in a glass">
 					<p>pistachio matcha latte with tache pistachio milk</p>
 				</li>
 				<li>
-					<img src="images/icedpistachiomatchalatte.jpg" alt="">
+					<img src="images/icedpistachiomatchalatte.jpg"
+						alt="image of a iced pistachio matcha latte in a glass">
 					<p>iced pistachio matcha latte with tache pistachio milk</p>
 				</li>
 				<li>
-					<img src="images/vanillaproteinlatte.jpg" alt="">
+					<img src="images/vanillaproteinlatte.jpg" alt="image of a vanilla protein latte in a glass">
 					<p>vanilla protein latte</p>
 				</li>
 				<li>
-					<img src="images/icedvanillaproteinlatte.jpg" alt="">
+					<img src="images/icedvanillaproteinlatte.jpg"
+						alt="image of an iced vanilla protein latte in a glass">
 					<p>iced vanilla protein latte</p>
 				</li>
 				<li>
-					<img src="images/goldenproteinlatte.jpg" alt="">
+					<img src="images/goldenproteinlatte.jpg" alt="image of a golden protein latte in a glass">
 					<p>golden protein latte</p>
 				</li>
 				<li>
-					<img src="images/icedgoldenproteinlatte.jpg" alt="">
+					<img src="images/icedgoldenproteinlatte.jpg" alt="image of an iced golden protein latte in a glass">
 					<p>iced golden protein latte</p>
 				</li>
 				<li>
-					<img src="images/matchaproteinlatte.jpg" alt="">
+					<img src="images/matchaproteinlatte.jpg" alt="image of a matcha protein latte in a glass">
 					<p>matcha protein latte</p>
 				</li>
 			</ul>
@@ -254,11 +363,20 @@
 			</p>
 			<P>By selecting 'SUBMIT,' you agree to our Terms of Service and Privacy Policy</P>
 			<input type="text" placeholder="Email Adress">
-			<a href="#">Submit</a>
+			<button>Submit</button>
 		</section>
-	</body>
-</main>
+	</main>
+
+	<footer>
+	</footer>
 
 
+	<script src="nav.js"></script>
+	<script src="loadpartials.js"></script>
+
+	<script src="scripthome.js"></script>
+
+
+</body>
 
 </html>

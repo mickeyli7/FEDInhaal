@@ -7,22 +7,14 @@
     <title>Peet's Coffee</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="styles/layout.css">
 </head>
 
 <body>
-    <!-- <header id="nav"></header>
 
-    <script>
-      fetch('partials/nav.html')
-        .then(res => res.text())
-        .then(html => {
-          document.getElementById('nav').innerHTML = html;
-        });
-    </script> -->
     <header>
-        <nav>
             <a href="index.html">
-                <img src="images/peetslogo.png" alt="site logo">
+                <img src="images/peetslogo.png" alt="peets site logo">
             </a>
             <ul>
                 <li>
@@ -46,11 +38,106 @@
                             d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                     </svg>
                 </li>
+                <li>
+                    <button aria-label="Open menu">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </li>
             </ul>
-        </nav>
+
+            <nav>
+                <button aria-label="Close menu">×</button>
+                <ul>
+                    <li>
+                        <h2>free shipping</h2>
+                    </li>
+                    <li>
+                        <h2>coffee</h2>
+                        <ul>
+                            <li><h3>featured</h3></li>
+                            <li><a href="#">Subscribe & save</a></li>
+                            <li><a href="#">gift subscriptions</a></li>
+                            <li><a href="#">best sellers</a></li>
+                            <li><a href="#">exclusives</a></li>
+                            <li><a href="#">decaf & half-caff coffee</a></li>
+                            <li><a href="#">L'OR coffee</a></li>
+                            <li><a href="#">shop all coffee</a></li>
+                        </ul>
+                        <ul>
+                            <li><h3>roast</h3></li>
+                            <li><a href="#">dark roast</a></li>
+                            <li><a href="#">medium roast</a></li>
+                            <li><a href="#">bright roast</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>shop</h2>
+                        <ul>
+                            <li><h3>shop</h3></li>
+                            <li><a href="#">subscribe & save</a></li>
+                            <li><a href="#">coffee</a></li>
+                            <li><a href="#">tea</a></li>
+                            <li><a href="#">E-Gift cards</a></li>
+                            <li><a href="#">Mugs + Gear</a></li>
+                        </ul>
+                        <ul>
+                            <li><h3>offers</h3></li>
+                            <li><a href="#">30% off new subscriptions</a></li>
+                            <li><a href="#">free shipping on orders $49+</a></li>
+                            <li><a href="#">10% off + free shipping for email subscribers</a></li>
+                            <li><a href="#">15% off for SMS subscribers</a></li>
+                            <li><a href="#">shop all offers</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>about us</h2>
+                        <ul>
+                            <li><a href="#">coffee for coffee people</a></li>
+                            <li><a href="#">sourcing with impact</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>our stores</h2>
+                        <ul>
+                            <li><a href="#">coffee for coffee people</a></li>
+                            <li><a href="#">sourcing with impact</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>business</h2>
+                        <ul>
+                            <li><a href="#">coffee for coffee people</a></li>
+                            <li><a href="#">sourcing with impact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
     </header>
 
     <main>
+        <button>chat</button>
+
+        <section>
+            <h2>chat</h2>
+            <article>
+                <button>✕</button>
+                <section></section>
+
+                <section>
+                    <input placeholder="Message…"/>
+                    <button>↑</button>
+                </section>
+            </article>
+        </section>
+
+
+        <button>get $25</button>
+
+        <button>choose your grind</button>
+
 
         <!-- small batch series -->
         <section>
@@ -60,13 +147,13 @@
             <p>starting at $24,95 / LB</p>
             <ul>
                 <li>
-                    <img src="images/smallbatch.jpg" alt="">
+                    <img src="images/smallbatch.jpg" alt="bag of small batch coffee beans">
                 </li>
                 <li>
-                    <img src="images/smallbatchseries.jpg" alt="">
+                    <img src="images/smallbatchseries.jpg" alt="several bags of the small batch series coffee beans">
                 </li>
                 <li>
-                    <img src="images/smallbatchimg3.jpg" alt="">
+                    <img src="images/smallbatchimg3.jpg" alt="coffee beans in an open bag">
                 </li>
             </ul>
             <p>When our coffee team encounters extraordinary coffees, they set aside just enough to share with others
@@ -80,58 +167,102 @@
 
         <!-- choose your grind -->
         <section>
-            <h2>choose your grind</h2>
-            <ul>
-                <li>
-                    <button>
-                        <p>Whole bean</p>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <p>Drip</p>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <p>French press</p>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <p>Espresso</p>
-                    </button>
-                </li>
-            </ul>
-            <!--  -->
+            <h2>Choose your grind:</h2>
+
+            <form>
+                <fieldset>
+
+
+                    <label>
+                        <input type="radio" name="grind" checked>
+                        <span>
+                            <img src="images/wholebean.png" alt="whole bean icon">
+                            Whole Bean
+                        </span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="grind">
+                        <span>
+                            <img src="images/drip.png" alt="drip coffee pot icon">
+                            Drip
+                        </span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="grind">
+                        <span>
+                            <img src="images/frenchpress.png" alt="french press icon">
+                            French Press
+                        </span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="grind">
+                        <span>
+                            <img src="images/espresso.png" alt="espresso machine icon">
+                            Espresso
+                        </span>
+                    </label>
+                </fieldset>
+            </form>
+
+
             <h2>quantity</h2>
+
+            <div>
+                <button type="button" aria-label="Decrease quantity">−</button>
+                <span aria-live="polite">1 Bag
+                    <small></small>
+                </span>
+
+                <button type="button" aria-label="Increase quantity">+</button>
+            </div>
+
             <a href="#">subscribe & ship free</a>
-            <p>Get a free mug when you subscribe (claim offer at checkout) OR get 30% off your first subscription offer
-                (use promo code NEWSUB30)</p>
+
+            <div>
+                <img src="images/discount.svg" alt="discount tag icon">
+                <p>Get a free mug when you subscribe (claim offer at checkout) OR get 30% off your first subscription
+                    offer
+                    (use promo code NEWSUB30)</p>
+            </div>
         </section>
 
         <!-- why customers love small batch -->
         <section>
             <h2>why customers love the small batch series</h2>
             <article>
-                <h3>carefully selected</h3>
-                <p>Only the very best coffee beans from the top 1% of farmers around the world go into each batch.</p>
+                <img src="images/hand.svg" alt="hand holding coffee beans icon">
+                <div>
+                    <h3>carefully selected</h3>
+                    <p>Only the very best coffee beans from the top 1% of farmers around the world go into each batch.
+                    </p>
+                </div>
             </article>
             <article>
-                <h3>masterful roasts</h3>
-                <p>Each batch is specifically roasted to highlight and develop its unique flavors and characteristics.
-                </p>
+                <img src="images/mug.svg" alt="mug icon">
+                <div>
+                    <h3>masterful roasts</h3>
+                    <p>Each batch is specifically roasted to highlight and develop its unique flavors and
+                        characteristics.
+                    </p>
+                </div>
             </article>
             <article>
-                <h3>exclusive access</h3>
-                <p>Limited-edition coffees our team specially selected for those who appreciate an incredible cup.</p>
+                <img src="images/hourglass.svg" alt="hourglass icon">
+                <div>
+                    <h3>exclusive access</h3>
+                    <p>Limited-edition coffees our team specially selected for those who appreciate an incredible cup.
+                    </p>
+                </div>
             </article>
         </section>
 
         <!-- this month's roast -->
         <section>
 
-            <img src="images/papuanewguineacropped.png">
+            <img src="images/papuanewguineacropped.png" alt="papua new guinea wahgi valley with mountain background">
             <p>this month's roast</p>
             <h2>Papua New Guinea Wahgi Valley</h2>
 
@@ -146,19 +277,19 @@
             <h2>How it works</h2>
             <ul>
                 <li>
-                    <img src="images/choose.jpg" alt="">
+                    <img src="images/choose.jpg" alt="person holding a bag of coffee beans on a table">
                     <p>1</p>
                     <h3>choose</h3>
                     <p>Let us help you discover something new with our Small Batch Series Curated Subscription.</p>
                 </li>
                 <li>
-                    <img src="images/customize.jpg" alt="">
+                    <img src="images/customize.jpg" alt="person picking up a packaged cardboard box with peets logo">
                     <p>2</p>
                     <h3>customize</h3>
                     <p>Let us know how much, how often, and which grind is right for you.</p>
                 </li>
                 <li>
-                    <img src="images/enjoy.jpg" alt="">
+                    <img src="images/enjoy.jpg" alt="man smelling a bag of coffee beans">
                     <p>3</p>
                     <h3>enjoy</h3>
                     <p>Experience the freshest coffee, hand roasted and delivered directly to you. Reschedule or cancel
@@ -170,129 +301,231 @@
         </section>
 
         <!-- previously featured -->
-        <!-- <section>
-            <h4>Previously Featured on Small Batch</h4>
+        <section>
+            <h2>Previously Featured on Small Batch</h2>
             <p>Every month experience a fferent limited release, rare microlot from smallholder farms in the world's
                 best coffee-growing regions</p>
             <ul>
                 <li>
+                    <p>limited edition</p>
                     <h3>Major dickason's blend</h3>
-                    <img src="images/majordickason'sblend.jpg" alt="">
+                    <img src="images/majordickason'sblend.jpg" alt="bag of major dickasons coffee beans">
                     <p>starting at $18.95/MO</p>
+                    <p>★ 3.5/5</p>
                 </li>
                 <li>
+                    <p>out of stock</p>
                     <h3>French roast</h3>
-                    <img src="images/frenchroast.jpg" alt="">
+                    <img src="images/frenchroast.jpg" alt="bag of french roast coffee beans">
                     <p>starting at $18.95/MO</p>
+                    <p>★ 3.5/5</p>
                 </li>
                 <li>
-                    <h3>Arabian mocha-java</h3>
-                    <img src="images/arabianmochajava.jpg" alt="">
-                    <p>starting at $18.95/MO</p>
-                </li>
-                <li>
+                    <p>out of stock</p>
                     <h3>Small batch series</h3>
-                    <img src="images/smaalbatchseries.jpg" alt="">
+                    <img src="images/smaalbatchseries.jpg" alt="bag of small batch series coffee beans">
                     <p>starting at $18.95/MO</p>
+                    <p>★ 3.5/5</p>
                 </li>
                 <li>
+                    <p>out of stock</p>
                     <h3>Espresso forte</h3>
-                    <img src="images/espressoforte.jpg" alt="">
+                    <img src="images/espressoforte.jpg" alt="bag of espresso forte coffee beans">
                     <p>starting at $18.95/MO</p>
+                    <p>★ 4.6/5</p>
                 </li>
                 <li>
+                    <p>out of stock</p>
                     <h3>Italian roast</h3>
-                    <img src="images/italianroast.jpg" alt="">
+                    <img src="images/italianroast.jpg" alt="bag of italian roast coffee beans">
                     <p>starting at $18.95/MO</p>
+                    <p>★ 3.7/5</p>
                 </li>
                 <li>
+                    <p>out of stock</p>
                     <h3>Decaf major dicasons blend</h3>
-                    <img src="images/decafdickansons.jpg" alt="">
+                    <img src="images/decafdickansons.jpg" alt="bag of decaf dickasons coffee beans">
                     <p>starting at $18.95/MO</p>
+                    <p>★ 4.7/5</p>
                 </li>
                 <li>
+                    <p>out of stock</p>
                     <h3>Decaf mocha-java</h3>
-                    <img src="images/decafmoccajava.jpg" alt="">
+                    <img src="images/decafmoccajava.jpg" alt="bag of decaf mocha-java coffee beans">
                     <p>starting at $18.95/MO</p>
+                    <p>★ 4.7/5</p>
                 </li>
                 <li>
+                    <p>out of stock</p>
                     <h3>Holiday blend</h3>
-                    <img src="images/holidayblend.jpg" alt="">
+                    <img src="images/holidayblend.jpg" alt="bag of holiday blend coffee beans">
                     <p>starting at $18.95/MO</p>
+                    <p>★ 3.5/5</p>
                 </li>
             </ul>
-        </section> -->
+        </section>
 
-        <section class="reviews">
-            <h2>Reviews</h2>
-            <p>Rating Snapshot</p>
+
+        <!-- Rating Snapshot -->
+        <section>
+            <h2>Customer reviews</h2>
+            <h3>Rating Snapshot</h3>
             <p>Select a row below to filter reviews.</p>
 
-            <div class="rating-row">
-                <span>5 stars</span>
-                <div class="rating-bar">
-                    <div class="filled" style="width: 80%;"></div>
-                </div>
-                <span>653</span>
-            </div>
+            <div>
+                <article>
+                    <span>5 stars</span>
+                    <div>
+                        <div style="width:80%"></div>
+                    </div>
+                    <span>653</span>
+                </article>
 
-            <div class="rating-row">
-                <span>4 stars</span>
-                <div class="rating-bar">
-                    <div class="filled" style="width: 50%;"></div>
-                </div>
-                <span>144</span>
-            </div>
+                <article>
+                    <span>4 stars</span>
+                    <div>
+                        <div style="width:50%"></div>
+                    </div>
+                    <span>144</span>
+                </article>
 
-            <div class="rating-row">
-                <span>3 stars</span>
-                <div class="rating-bar">
-                    <div class="filled" style="width: 30%;"></div>
-                </div>
-                <span>76</span>
-            </div>
+                <article>
+                    <span>3 stars</span>
+                    <div>
+                        <div style="width:30%"></div>
+                    </div>
+                    <span>76</span>
+                </article>
 
-            <div class="rating-row">
-                <span>2 stars</span>
-                <div class="rating-bar">
-                    <div class="filled" style="width: 15%;"></div>
-                </div>
-                <span>31</span>
-            </div>
+                <article>
+                    <span>2 stars</span>
+                    <div>
+                        <div style="width:15%"></div>
+                    </div>
+                    <span>31</span>
+                </article>
 
-            <div class="rating-row">
-                <span>1 star</span>
-                <div class="rating-bar">
-                    <div class="filled" style="width: 20%;"></div>
-                </div>
-                <span>36</span>
+                <article>
+                    <span>1 star</span>
+                    <div>
+                        <div style="width:20%"></div>
+                    </div>
+                    <span>36</span>
+                </article>
             </div>
         </section>
 
-        <section class="overall-rating">
+        <!-- Overall Rating -->
+        <section>
             <h2>Overall Rating</h2>
-            <div class="rating-summary">
-                <div class="rating-value">
-                    <span class="score">4.4</span>
-                    <div class="stars">
-                        ★★★★☆
-                    </div>
-                    <p class="reviews-count">940 Reviews</p>
-                </div>
-            </div>
-            <p>235 out of 282 (83%) reviewers recommend this product</p>
 
             <div>
+                <span>4.4</span>
+                <div>★★★★☆</div>
+                <p>940 Reviews</p>
+            </div>
+
+            <p>235 out of 282 (83%) reviewers recommend this product</p>
+
+            <section>
                 <h3>Review this Product</h3>
-                <div class="stars-input">
-                    <span class="star">☆</span>
-                    <span class="star">☆</span>
-                    <span class="star">☆</span>
-                    <span class="star">☆</span>
-                    <span class="star">☆</span>
+                <div>
+                    <span>☆</span>
+                    <span>☆</span>
+                    <span>☆</span>
+                    <span>☆</span>
+                    <span>☆</span>
                 </div>
                 <p>Adding a review will require a valid email for verification</p>
-            </div>
+            </section>
+
+            <article>
+                <h3>Customer images and videos</h3>
+                <ul>
+                    <li><img src="images/customerreview1.jpeg" alt="person holding a bag of small batch coffee beans">
+                    </li>
+                    <li><img src="images/customerreview2.jpeg" alt="image of a cup of coffee on a counter"></li>
+                    <li><img src="images/customerreview3.jpeg" alt="top view image of a coffee cup on a counter"></li>
+                    <li><img src="images/customerreview4.jpeg" alt="working coffee drip machine in progress"></li>
+                    <li><img src="images/customerreview5.jpeg"
+                            alt="close up picture of a bag of vietnam lotus dark roast coffee beans"></li>
+                </ul>
+            </article>
+
+            <section>
+                <h3>Filter reviews</h3>
+
+                <section>
+                    <h2>filters</h2>
+                    <input type="search" placeholder="Search topics and reviews">
+
+                    <button type="button" data-keyword="all">All</button>
+                    <button type="button" data-keyword="satisf">Satisfaction</button>
+                    <button type="button" data-keyword="small">small</button>
+                    <button type="button" data-keyword="purchase">purchase</button>
+                    <button type="button" data-keyword="enjoy">enjoyment</button>
+                    <button type="button" data-keyword="quality">Quality</button>
+                    <button type="button" data-keyword="smell">smell</button>
+                    <button type="button" data-keyword="price">Price</button>
+                    <button type="button" data-keyword="large">large</button>
+                    <button type="button" data-keyword="reliable">reliable</button>
+                    <button type="button" data-keyword="customer service">customer service</button>
+                </section>
+
+
+
+            </section>
+
+            <section>
+                <h2>reviews</h2>
+                <article data-keywords="favorite subscription satisfaction enjoy">
+                    <h4>Henk</h4>
+                    <div>★★★★★</div>
+                    <p>Verified purchaser</p>
+                    <p>This is my favorite subscription coffee.</p>
+                </article>
+
+                <article data-keywords="variety small purchase enjoy">
+                    <h4>Jantje</h4>
+                    <div>★★★★☆</div>
+                    <p>Verified purchaser</p>
+                    <p>I love the variety that comes with the small batch series.</p>
+                </article>
+
+                <article data-keywords="quality reliable">
+                    <h4>Esther</h4>
+                    <div>★★★★★</div>
+                    <p>Verified purchaser</p>
+                    <p>The quality of the coffee is outstanding.</p>
+                </article>
+
+                <article>
+                    <h4>Jane</h4>
+                    <div>★★★★★</div>
+                    <p>Verified purchaser</p>
+                    <p>This is my favorite subscription coffee.</p>
+                </article>
+
+                <article>
+                    <h4>John</h4>
+                    <div>★★★★☆</div>
+                    <p>Verified purchaser</p>
+                    <p>I love the variety that comes with the small batch series.</p>
+                </article>
+
+                <article>
+                    <h4>Kioko</h4>
+                    <div>★★★★★</div>
+                    <p>Verified purchaser</p>
+                    <p>The quality of the coffee is outstanding.</p>
+                </article>
+            </section>
+
+
+            <p>1 - 3 of 6 reviews</p>
+            <button aria-label="previous slide" type="button">&lt;</button>
+            <button aria-label="Next slide" type="button">&gt;</button>
+
         </section>
 
 
@@ -314,63 +547,12 @@
     </main>
 
     <footer>
-        <section>
-            <h3>Peet's Coffee</3>
-                <p>Berkeley, California</p>
-                <p>Est. 1966</p>
-                <ul>
-                    <li>
-                        <!-- sm icons -->
-                    </li>
-                </ul>
-        </section>
-
-        <section>
-            <article>
-                <h4>Help center</h4>
-                <a href="#">contact us</a>
-                <a href="#">help center</a>
-                <a href="#">shipping &returns</a>
-            </article>
-            <article>
-                <h4>Company</h4>
-                <a href="#">careers</a>
-                <a href="#">our people</a>
-                <a href="#">newsroom</a>
-                <a href="#">code of ethics</a>
-                <a href="#">supplu chail transparancy</a>
-                <a href="#">supplier code of conduct</a>
-            </article>
-            <article>
-                <h4>gift cards</h4>
-                <a href="#">shop gift cards</a>
-            </article>
-            <article>
-                <h4>offers</h4>
-                <a href="#">student discount</a>
-                <a href="#">current offers</a>
-                <a href="#">get $25</a>
-            </article>
-            <article>
-                <h4>partners with peet's</h4>
-                <a href="#">foodservice program</a>
-                <a href="#">hbecome an affiliate</a>
-                <a href="#">college ambassador program</a>
-                <a href="#">franchise</a>
-            </article>
-            <article>
-                <h4>find peet's in grocery</h4>
-                <a href="#">product in finder</a>
-            </article>
-            <article>
-                <h4>blog</h4>
-                <a href="#">the cupping room</a>
-            </article>
-            <article>
-                <h4>The peets app</h4>
-                <ul>
-                    <!-- <li>appstore en google play icon en link</li> -->
-                </ul>
-            </article>
-        </section>
     </footer>
+
+    <script src="loadpartials.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
